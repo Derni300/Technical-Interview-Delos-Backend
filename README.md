@@ -27,6 +27,12 @@ source venv/bin/activate  # Sur Windows, utilisez `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+### Configuration de l'Environnement
+```bash
+# Lancement simple de l'app sans services
+python -m app.main
+```
+
 ## 🐳 Docker et Base de Données
 
 ### Démarrage des Services
@@ -107,18 +113,3 @@ pytest
 - Historique des conversations
 - Support du streaming de réponses
 - Statistiques administratives
-
-## 🤝 Contribution
-1. Forker le projet
-2. Créer une branche de fonctionnalité
-3. Commiter vos modifications
-4. Pousser la branche
-5. Ouvrir une Pull Request
-
-## 📄 Licence
-[À définir - par exemple MIT]
-
-## 📞 Contact
-- Votre Nom
-- Votre Email
-- Lien du Projet GitHub

@@ -14,7 +14,7 @@ from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.postgresql import UUID
 
 # Configuration de la base de données PostgreSQL
-DATABASE_URL = "sqlite:///./chatbot.db"
+DATABASE_URL = "sqlite:///./chatbot.db" # Changer pour PostgreSQL si nécessaire avec l'image Docker
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()

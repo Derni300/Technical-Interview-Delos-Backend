@@ -13,7 +13,7 @@ Un backend FastAPI pour un chatbot sportif permettant aux utilisateurs de discut
 
 ### Clonage du Projet
 ```bash
-git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/Derni300/Technical-Interview-Delos-Backend)
+git clone https://github.com/Derni300/Technical-Interview-Delos-Backend
 cd Technical-Interview-Delos-Backend
 ```
 
